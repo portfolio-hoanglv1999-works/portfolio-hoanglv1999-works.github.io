@@ -393,9 +393,14 @@ a{
 	transform: scale(1.05);
 	animation: morebrightness 1s linear forwards;
 	transition: transform 1s ;
+	z-index:100;
+	position:relative;
+}
+.hieuungphongto{
+	filter:brightness(0.5)
 }
 @keyframes morebrightness{
-	from{filter:brightness(1);}
+	from{filter:brightness(0.5);}
 	to{filter:brightness(1.2);}
 }
 
@@ -797,6 +802,10 @@ a{
 	  width: 10px;
 	}
   }
+
+
+ 
+
 
 
 
