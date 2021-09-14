@@ -97,9 +97,9 @@ a{
 	background-size:contain;*/
 }
 .content1__navbar1{
-	height:200px;
+	height:100px;
+	position:relative;
 	width:100%;
-	position:fixed;
 	z-index: 10000000;
 }
 .paddingnoidunglai{
@@ -155,7 +155,7 @@ a{
 
 .content1__introwork--4dong{
 	position:absolute;
-	top:150px;
+	top:110px;
 	left:60%;
 	font-size:15.7px;
 	
@@ -167,9 +167,9 @@ a{
 }
 .content1__introwork--caugioithieu{
 	position:absolute;
-	bottom:30vh;
+	bottom:45vh;
 	left:60%;
-	font-size:15.7px;
+	font-size:17.7px;
 	font-weight: 300;
 }
 .content1__introwork--caugioithieu h4{
@@ -182,7 +182,7 @@ a{
 }
 .content1__introwork--mainintro{
 	position:absolute;
-	top:26vh;
+	top:16vh;
 	left:14%;
 	font-size:5vw;
 	line-height:200px;
